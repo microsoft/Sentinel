@@ -1,6 +1,9 @@
 # VS Code
 .vscode/
 
+# temp files and directories
+.temp/
+
 # Jupyter Notebook
 .ipynb_checkpoints
 
