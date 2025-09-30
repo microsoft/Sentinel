@@ -48,7 +48,7 @@ Steps:
 1. Clone this repository.
 2. Open the desired notebook (`.ipynb`) in VS Code.
 3. Select the Microsoft Sentinel shield icon in the left toolbar and Select your account name to complete the sign in.
-4. Select the Run triangle to execute the code in the notebook.
+4. Select the Run button to execute the code in the notebook.
 5. You will be prompted to select the kernel, choose Microsoft Sentinel.
 6. On the next prompt, you will be prompted to choose small/medium/large sized runtime pool. For more information on the different runtimes, see [Selecting the appropriate Microsoft Sentinel runtime](https://learn.microsoft.com/en-us/azure/sentinel/datalake/notebooks#select-the-appropriate-runtime-pool).
 7. Run cells sequentially or modify parameters as needed.
