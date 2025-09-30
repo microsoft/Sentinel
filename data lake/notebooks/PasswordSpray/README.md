@@ -1,6 +1,6 @@
 # 🔐 Password Spray Detection – End-to-End Pipeline
 
-This folder contains a suite of Spark notebooks that implement a **modular, cost-efficient pipeline** for detecting password spray attacks in Microsoft Entra AD `SigninLogs`.
+This folder contains a suite of Spark notebooks that implement a **modular, cost-efficient pipeline** for detecting password spray attacks in Microsoft Entra ID `SigninLogs`.
 
 ---
 
@@ -49,8 +49,7 @@ This folder contains a suite of Spark notebooks that implement a **modular, cost
 ```mermaid
 flowchart TD
     %% Raw Data
-    A[📥 Raw Sentinel data l
-    ake<br/>SigninLogs Table]
+    A[📥 Raw Sentinel data lake<br/>SigninLogs Table]
 
     %% Backfill
     A --> B[⚙️ data_backfill_setup<br/>Historical Backfill]
