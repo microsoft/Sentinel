@@ -59,7 +59,7 @@ Steps:
 ## 📖 Structure
 
 - **`Password Spray/`**  
-  End-to-end pipeline for detecting password spray attacks in Azure AD `SigninLogs`.  
+  End-to-end pipeline for detecting password spray attacks in Microsoft Entra AD `SigninLogs`.  
   Includes:
 
   - `data_backfill_setup` → historical backfill of summary & stats tables
@@ -100,5 +100,5 @@ While each subfolder README describes outputs in detail, the common pattern is:
 ## 📌 Next Steps
 
 - Explore the `Password Spray/` folder for a complete example pipeline.
-- Extend with new detection scenarios for datalake.
+- Extend with new detection scenarios for Sentinel data lake.
 - Contribute additional notebooks following the same modular structure.
