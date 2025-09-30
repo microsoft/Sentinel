@@ -4,7 +4,7 @@ This folder contains a suite of Spark notebooks that implement a **modular, cost
 
 ---
 
-## 📖 Workflow Summary
+## 📖 Workflow summary
 
 1. **`data_backfill_setup`**
 
@@ -27,7 +27,7 @@ This folder contains a suite of Spark notebooks that implement a **modular, cost
 
 ---
 
-## 💰 Why This Design Is Cost-Efficient
+## 💰 Why this design is cost-efficient
 
 - 🔹 Long lookbacks are **summarized once daily** (summary tables) instead of rescanning large `SigninLogs`.
 - 🔹 Frequent runs (every 4h) only process a **small fresh batch** plus compact history.
@@ -35,7 +35,7 @@ This folder contains a suite of Spark notebooks that implement a **modular, cost
 
 ---
 
-## 🚀 Outputs & Use Cases
+## 🚀 Outputs & use cases
 
 - **Alerts** → trigger on high spray_score IPs.
 - **KPI Dashboards** → monitor lockouts, distinct IPs, spray attempts.
@@ -44,7 +44,7 @@ This folder contains a suite of Spark notebooks that implement a **modular, cost
 
 ---
 
-## 🏗️ High-Level Architecture
+## 🏗️ High-level architecture
 
 ```mermaid
 flowchart TD
@@ -93,7 +93,7 @@ flowchart TD
 
 ```
 
-## 📚 Table Catalog
+## 📚 Table catalog
 
 ### 1. 🗂️ `signin_summary_daily_SPRK`
 

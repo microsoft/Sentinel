@@ -12,11 +12,11 @@ Each folder focuses on a specific detection or analysis scenario, with supportin
 Complete the Microsoft Sentinel data lake onboarding process before using these notebooks.
 [Microsoft Sentinel data lake onboarding prerequisites](https://learn.microsoft.com/en-us/azure/sentinel/datalake/sentinel-lake-onboarding#prerequisites)
 
-1. **Confirm Sentinel data lake enablement** - To use notebooks in the Microsoft Sentinel data lake, you must first onboard to the data lake. If you haven't onboarded to the Microsoft Sentinel data lake, see [Onboarding to Microsoft Sentinel data lake](https://learn.microsoft.com/en-us/azure/sentinel/datalake/sentinel-lake-onboarding).
+1. **Confirm Sentinel data lake enablement** - To use notebooks in the Microsoft Sentinel data lake, you must first onboard to the Sentinel data lake. If you haven't onboarded to the Microsoft Sentinel data lake, see [Onboarding to Microsoft Sentinel data lake](https://learn.microsoft.com/en-us/azure/sentinel/datalake/sentinel-lake-onboarding).
 
 2. **Validate data availability** - Ensure target tables (e.g., `SigninLogs` or other tables) are accessible in your sentinel workspace or Unified Security Operations with Microsoft Defender portal.
 
-3. **Install Microsoft Sentinel extension for Visual Studio Code (VS Code)** - The Microsoft Sentinel extension for Visual Studio Code (VS Code) is installed from the extensions marketplace. For more detailed steps, refer [Install Visual Studio Code and the Microsoft Sentinel extension](https://learn.microsoft.com/en-us/azure/sentinel/datalake/notebooks#install-visual-studio-code-and-the-microsoft-sentinel-extension)
+3. **Install Microsoft Sentinel extension for Visual Studio Code (VS Code)** - The Microsoft Sentinel extension for Visual Studio Code (VS Code) can be installed from the extensions marketplace. For more detailed steps, refer [Install Visual Studio Code and the Microsoft Sentinel extension](https://learn.microsoft.com/en-us/azure/sentinel/datalake/notebooks#install-visual-studio-code-and-the-microsoft-sentinel-extension)
 
 ### Additional Setup for Diagram Rendering
 
