@@ -62,8 +62,8 @@ Steps:
   End-to-end pipeline for detecting password spray attacks in Microsoft Entra ID `SigninLogs`.  
   Includes:
 
-  - `data_backfill_setup` → historical backfill of summary & stats tables
-  - `signinlogs_summary_and_stats_daily` → daily rollups for efficiency
+  - `data_backfill_setup` → (Optional) historical backfill of summary & stats tables
+  - `signinlogs_summary_and_stats_daily` → daily rollups for efficiency and cost savings
   - `password_spray_features` → recurring feature engineering with spray score.
 
 ---
@@ -73,9 +73,11 @@ Steps:
 ```
 📓 notebooks/
 └── 📁 Password Spray/
-    ├── 📓 00_data_backfill_setup.ipynb          → Historical Backfill
-    ├── 📓 01_signinlogs_summary_and_stats_daily.ipynb → Daily Rollups
-    └── 📓 02_password_spray_features.ipynb      → Recurring Feature Engineering
+    ├── 📓 Optional-00_data_backfill_setup.ipynb          → Historical Backfill
+    ├── 📓 01_signinlogs_summary_and_stats_daily.ipynb    → Daily Rollups
+    └── 📓 02_password_spray_features.ipynb               → Recurring Feature Engineering
+└── 📁 Tutorials/
+    ├── 📓 01_GettingStartedwithSentineldatalake.ipynb    → Getting started Notebook for beginners
 ```
 
 ## 🧩 General Design Principles
