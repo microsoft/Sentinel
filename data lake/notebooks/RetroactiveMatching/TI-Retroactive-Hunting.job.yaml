@@ -1,0 +1,28 @@
+jobName: TI-Retroactive-Hunting
+jobType: Notebook
+jobPath: TI-Retroactive-Hunting.ipynb
+jobDescription: |-
+  This notebook correlates Threat Intelligence Indicators, from the
+    ThreatIntelIndicators table with log data from multiple sources over a
+    configurable lookback period, aggregates matches by TI indicator, and saves
+    results to a managed table for further analysis. 
+scheduleConfig:
+  isDisabled: false
+  startTime: '2025-10-01T17:00:00.000+00:00'
+  endTime: '2025-10-03T17:00:00.000+00:00'
+  repeatFrequency: Days
+  interval: 1
+computeInfo:
+  nodeSize: large
+  driverCores: 16
+  driverMemory: 112GB
+  executorCores: 16
+  executorMemory: 112GB
+  isExecutorAutoScale: false
+  executorMinCount: 4
+  executorMaxCount: 4
+  friendlyName: large pool (80 vCores)
+inputTables: []
+outputTables: []
+runtimeArgs: []
+isDisabled: false
