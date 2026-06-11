@@ -77,7 +77,7 @@ Steps:
     ├── 📓 01_signinlogs_summary_and_stats_daily.ipynb    → Daily Rollups
     └── 📓 02_password_spray_features.ipynb               → Recurring Feature Engineering
 └── 📁 Tutorials/
-    ├── 📓 01_GettingStartedwithSentineldatalake.ipynb    → Getting started Notebook for beginners
+    ├── 📓 01_getting_started_with_sentinel_data_lake.ipynb    → Getting started Notebook for beginners
 ```
 
 ## 🧩 General Design Principles
